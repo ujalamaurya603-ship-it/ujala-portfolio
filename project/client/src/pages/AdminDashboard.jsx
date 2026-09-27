@@ -260,7 +260,7 @@ async function handleAddCertificate(e) {
       ))}
     </div>
   </div>
-)}
+)}  
     </div>
   )
 }
