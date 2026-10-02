@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import Hero from '../sections/Hero.jsx'
@@ -25,7 +26,12 @@ export default function Home() {
         <AskAI />
         <Contact />
       </main>
-      <Footer />
+      <div className="text-center py-4">
+  <Link to="/admin/login" className="text-sm opacity-60 hover:opacity-100">
+    Admin Login
+  </Link>
+</div>
+<Footer />
     </>
   )
 }
